@@ -75,7 +75,7 @@ q {
     padding-bottom: 8px;
 }
 
-q, footer, footer a, .container_right_block p, .course_block p {
+span:last-child, q, footer, footer a, .container_right_block p, .course_block p {
     color: #808080;
 }
 
@@ -96,7 +96,6 @@ q, footer, footer a, .container_right_block p, .course_block p {
     .container_right {
         width: 100%;
         margin: 0;
-        /* padding: 32px 16px; */
     }
 
     h2 {
@@ -127,12 +126,8 @@ header {
     height: 150%;
 }
 
-#bold {
+span:first-child {
     font-weight: bold;
-}
-
-#thin {
-    color: grey;
 }
 
 header .desktop {
