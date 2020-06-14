@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    /* padding: 0; */
 }
 
 body {
@@ -112,12 +113,10 @@ header {
     height: 64px;
     position: fixed;
     top: 0;
-    justify-content: space-between;
     font-weight: 200;
 }
 
 .logo {
-    margin-left: 24px;
     height: 32px;
     font-size: 1.5rem;
     align-items: center;
@@ -135,6 +134,11 @@ header {
 #thin {
     font-weight: thin;
     color: grey;
+}
+
+.desktop {
+    justify-content: space-between;
+    margin-left: 24px;
 }
 
 .desktop a {
@@ -162,7 +166,7 @@ nav a:last-child {
     }
 
     .mobile li {
-        list-style: none;
+        list-style-type: none;
     }
 
     li img {
