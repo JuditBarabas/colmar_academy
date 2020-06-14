@@ -48,6 +48,10 @@ q {
     margin-left: 24px;
 }
 
+.container_right_block {
+    padding: 16px;
+}
+
 .media_container_right{
     width: 35%;
 }
@@ -60,6 +64,7 @@ q {
 
 .text_container_right {
     width: 65%;
+    padding-left: 16px;
 }
 
 .container_right_block:hover {
