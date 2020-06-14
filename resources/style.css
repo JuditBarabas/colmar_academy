@@ -83,30 +83,6 @@ q, footer, .container_right_block p, .course_block p {
 }
 
 @media only screen and (max-width: 757px) {
-    .desktop, .logo {
-        display: none;
-    }
-
-    .mobile {
-        display: block;
-        width: 100%;
-    }
-
-    .mobile ul {
-        /* display: flex; */
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .mobile li {
-        list-style: none;
-    }
-
-    li img {
-        width: 80%;
-        height: 80%;
-    }
-
     .section_container_main {
         flex-direction: column;
         padding: 0;
@@ -168,6 +144,31 @@ header {
 
 nav a:last-child {
     margin-right: 24px;
+}
+
+@media only screen and (max-width: 757px) {
+    .desktop {
+        display: none;
+    }
+    
+    .mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .mobile ul {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mobile li {
+        list-style: none;
+    }
+
+    li img {
+        width: 80%;
+        height: 80%;
+    }
 }
 
 /* Banner section */
