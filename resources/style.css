@@ -92,7 +92,7 @@ q, footer, .container_right_block p, .course_block p {
     }
 
     .mobile ul {
-        display: flex;
+        /* display: flex; */
         justify-content: space-around;
         align-items: center;
     }
