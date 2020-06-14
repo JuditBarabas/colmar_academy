@@ -101,6 +101,11 @@ q, footer, .container_right_block p, .course_block p {
         list-style: none;
     }
 
+    li img {
+        width: 80%;
+        height: 80%;
+    }
+
     .section_container_main {
         flex-direction: column;
         padding: 0;
