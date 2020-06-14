@@ -89,6 +89,7 @@ q, footer, .container_right_block p, .course_block p {
 
     .mobile {
         display: block;
+        width: 100%;
     }
 
     .mobile ul {
