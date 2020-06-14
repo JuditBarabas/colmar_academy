@@ -78,15 +78,17 @@ q, footer, .container_right_block p, .course_block p {
     color: #808080;
 }
 
-@media only screen and (min-width: 758px) {
-    .mobile {
-        display: none;
-    }
+.mobile {
+    display: none;
 }
 
 @media only screen and (max-width: 757px) {
     .desktop, .logo {
         display: none;
+    }
+
+    .mobile {
+        display: inline-flex;
     }
 
     .section_container_main {
