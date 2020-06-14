@@ -97,6 +97,10 @@ q, footer, .container_right_block p, .course_block p {
         align-items: center;
     }
 
+    .mobile li {
+        list-style: none;
+    }
+
     .section_container_main {
         flex-direction: column;
         padding: 0;
