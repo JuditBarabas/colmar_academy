@@ -74,6 +74,10 @@ q {
     padding-bottom: 8px;
 }
 
+q, footer, .container_right_block p, .course_block p {
+    color: #808080;
+}
+
 @media only screen and (min-width: 758px) {
     .mobile {
         display: none;
