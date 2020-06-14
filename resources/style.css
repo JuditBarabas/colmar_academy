@@ -75,7 +75,7 @@ q {
     padding-bottom: 8px;
 }
 
-q, footer, .container_right_block p, .course_block p {
+q, footer, footer a, .container_right_block p, .course_block p {
     color: #808080;
 }
 
@@ -132,7 +132,6 @@ header {
 }
 
 #thin {
-    font-weight: thin;
     color: grey;
 }
 
