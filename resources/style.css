@@ -97,7 +97,7 @@ q {
     .container_right {
         width: 100%;
         margin: 0;
-        padding: 16px 16px;
+        /* padding: 32px 16px; */
     }
 
 }
@@ -144,19 +144,6 @@ nav a:last-child {
     margin-right: 24px;
 }
 
-/* @media only screen and (min-width: 758px) {
-    .mobile {
-        display: none;
-    }
-} */
-
-
-/* @media only screen and (max-width: 757px) {
-    .desktop, .logo {
-        display: none;
-    }
-} */
-
 /* Banner section */
 
 .banner {
@@ -185,24 +172,11 @@ nav a:last-child {
     .banner .container_right {
         padding: 32px 16px;
     }
+
+    #button {
+        background-color: #808080;
+    }
 }
-
-/* @media only screen and (max-width: 757px) {
-    .banner .section_container_main {
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .banner .container_left {
-        width: 100%;
-    }
-
-    .banner .container_right {
-        width: 100%;
-        margin: 0;
-        padding: 32px 16px;
-    }
-} */
 
 /* Information section */
 
@@ -215,13 +189,19 @@ h3 {
 }
 
 @media only screen and (max-width: 757px) {
-    .container_right, .media_container_right {
+    .container_right_block {
+        flex-direction: column;
+        padding: 16px;
+    }
+    
+    .media_container_right {
         width: 100%;
         margin: 0;
     }
     
-    .container_right_block {
-        flex-direction: column;
+    .text_container_right {
+        width: 100%;
+        padding: 32px 16px;
     }
 }
 
@@ -257,6 +237,18 @@ h3 {
 .course_row img {
     width: 100%;
     height: auto;
+}
+
+@media only screen and (max-width: 757px) {
+    .course_row {
+        flex-direction: column;
+        
+    }
+
+    .course_row h4 {
+        background-color: #D8D8D8;
+        padding: 16px 0 24px 16px;
+    }
 }
 
 /* Thesis section */
