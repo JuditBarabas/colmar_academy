@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
 }
 
 body {
@@ -164,8 +164,8 @@ header .desktop nav a {
     }
 
     li img {
-        width: 80%;
-        height: 80%;
+        width: 130%;
+        height: 130%;
     }
 }
 
