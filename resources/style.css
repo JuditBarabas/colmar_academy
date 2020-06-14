@@ -136,12 +136,12 @@ header {
     color: grey;
 }
 
-.desktop {
+header .desktop {
     justify-content: space-between;
     margin-left: 24px;
 }
 
-.desktop a {
+header .desktop a {
     margin-right: 16px;
     
 }
