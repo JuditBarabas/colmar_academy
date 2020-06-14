@@ -140,12 +140,12 @@ header .desktop {
     margin-left: 24px;
 }
 
-header .desktop a {
-    margin-right: 16px;
+header .desktop nav a {
+    margin-left: 16px;
     
 }
 
-nav a:last-child {
+.desktop nav {
     margin-right: 24px;
 }
 
