@@ -88,7 +88,13 @@ q, footer, .container_right_block p, .course_block p {
     }
 
     .mobile {
-        display: inline-flex;
+        display: block;
+    }
+
+    .mobile ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .section_container_main {
