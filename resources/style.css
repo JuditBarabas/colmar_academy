@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+q {
+    display: block;
+    padding-bottom: 32px;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+}
+
+.section_container_main {
+    padding: 32px 0 32px 24px;
+}
+
+.container_left {
+    width: 60%;
+}
+
+.container_left img, .container_left video {
+    width: 100%;
+}
+
+.container_right {
+    width: 40%;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.media_container_right{
+    width: 35%;
+}
+
+.media_container_right img {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+}
+
+.text_container_right {
+    width: 65%;
+}
+
+.container_right_block:hover {
+    background-color: #D8D8D8;
+}
+
+.text_container_right h4, .text_container_right p {
+    padding-bottom: 8px;
+}
+
+/* Header*/
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    font-weight: 200;
+}
+
+.logo {
+    margin-left: 24px;
+    height: 32px;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.logo img {
+    width: 150%;
+    height: 150%;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#thin {
+    font-weight: thin;
+    color: grey;
+}
+
+.desktop a {
+    margin-right: 16px;
+    
+}
+
+nav a:last-child {
+    margin-right: 24px;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Banner section */
+
+.banner {
+    background-color: #D8D8D8;
+    margin-top: 64px;
+}
+
+.banner .container_right {
+    padding-right: 15%;
+}
+
+.banner p {
+    padding: 24px 0;
+}
+
+#button {
+    background-color: #3f3f3f;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    display: block;
+}
+
+/* Information section */
+
+h3 {
+    padding: 32px 0 24px 0;
+}
+
+#blue {
+    color: #42a1f5;
+}
+
+/* Course section */
+
+.course {
+    flex-direction: column;
+    margin: 0 56px 32px;
+}
+
+.course_row {
+    margin: 32px 0 24px 0;
+}
+
+.course_block {
+    flex: 1;
+    margin: 0 16px 0 16px;
+}
+
+.course_block div {
+    padding: 16px 0 0 16px;
+}
+
+.course_block p {
+    padding-top: 8px;
+}
+
+.course_row .flex {
+    flex-direction: column;
+}
+
+.course_row img {
+    width: 100%;
+    height: auto;
+}
+
+/* Thesis section */
+
+.container_left h4 {
+    padding: 24px 0 8px 0;
+}
+
+/* Footer */
+
+footer {
+    justify-content: space-between;
+    margin: 16px 24px 48px;
+}
+
+footer a {
+    padding-right: 8px;
+}
