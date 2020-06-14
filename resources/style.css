@@ -74,6 +74,34 @@ q {
     padding-bottom: 8px;
 }
 
+@media only screen and (min-width: 758px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 757px) {
+    .desktop, .logo {
+        display: none;
+    }
+
+    .section_container_main {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .container_left {
+        width: 100%;
+    }
+
+    .container_right {
+        width: 100%;
+        margin: 0;
+        padding: 16px 16px;
+    }
+
+}
+
 /* Header*/
 
 header {
@@ -116,22 +144,18 @@ nav a:last-child {
     margin-right: 24px;
 }
 
-@media only screen and (min-width: 758px) {
+/* @media only screen and (min-width: 758px) {
     .mobile {
         display: none;
     }
-}
+} */
 
 
-@media only screen and (max-width: 757px) {
+/* @media only screen and (max-width: 757px) {
     .desktop, .logo {
         display: none;
     }
-/* 
-    .mobile {
-        justify-content: space-between;
-    } */
-}
+} */
 
 /* Banner section */
 
@@ -158,6 +182,12 @@ nav a:last-child {
 }
 
 @media only screen and (max-width: 757px) {
+    .banner .container_right {
+        padding: 32px 16px;
+    }
+}
+
+/* @media only screen and (max-width: 757px) {
     .banner .section_container_main {
         flex-direction: column;
         padding: 0;
@@ -172,7 +202,7 @@ nav a:last-child {
         margin: 0;
         padding: 32px 16px;
     }
-}
+} */
 
 /* Information section */
 
@@ -183,6 +213,18 @@ h3 {
 #blue {
     color: #42a1f5;
 }
+
+@media only screen and (max-width: 757px) {
+    .container_right, .media_container_right {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .container_right_block {
+        flex-direction: column;
+    }
+}
+
 
 /* Course section */
 
