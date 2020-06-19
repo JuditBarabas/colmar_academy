@@ -153,16 +153,12 @@ header .desktop nav a {
     
     .mobile {
         display: block;
-        width: 100%;
     }
 
     .mobile ul {
         justify-content: space-around;
-        align-items: center;
-    }
-
-    .mobile li {
         list-style-type: none;
+        height: 64px;
     }
 
     li img {
