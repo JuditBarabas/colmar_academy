@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -41,6 +41,7 @@ q {
 
 .container_left img, .container_left video {
     width: 100%;
+    /* height: auto; */
 }
 
 .container_right {
@@ -63,7 +64,6 @@ q {
 
 .media_container_right img {
     width: 100%;
-    height: auto;
 }
 
 .text_container_right {
@@ -118,7 +118,7 @@ header {
 .logo {
     height: 32px;
     font-size: 1.5rem;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .logo img {
@@ -130,9 +130,14 @@ span:first-child {
     font-weight: bold;
 }
 
+header div.desktop {
+    height: 100%;
+}
+
 header .desktop {
     justify-content: space-between;
     margin-left: 24px;
+    /* align-items: center; */
 }
 
 header .desktop nav a {
@@ -177,7 +182,9 @@ header .desktop nav a {
 }
 
 .banner .container_right {
-    padding-right: 15%;
+    /* padding-right: 15%; */
+    box-sizing: border-box;
+    padding-right: 10%;
 }
 
 .banner p {
