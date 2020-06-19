@@ -1,5 +1,4 @@
 * {
-    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -41,7 +40,7 @@ q {
 
 .container_left img, .container_left video {
     width: 100%;
-    /* height: auto; */
+    height: auto;
 }
 
 .container_right {
@@ -118,7 +117,6 @@ header {
 .logo {
     height: 32px;
     font-size: 1.5rem;
-    /* align-items: center; */
 }
 
 .logo img {
@@ -137,7 +135,6 @@ header div.desktop {
 header .desktop {
     justify-content: space-between;
     margin-left: 24px;
-    /* align-items: center; */
 }
 
 header .desktop nav a {
@@ -182,7 +179,6 @@ header .desktop nav a {
 }
 
 .banner .container_right {
-    /* padding-right: 15%; */
     box-sizing: border-box;
     padding-right: 10%;
 }
